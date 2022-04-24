@@ -26,8 +26,10 @@ while T > 0:
         input("welcome")
         input("This is CRAB game.")
         print(" The hint is",(V))
+        
     print ((T),"out of 5 tries")
     y = input("Guess the word? ")
+  
     T -=1
     if T > 1 and y.lower() != U.lower():
         print("incorrect")
@@ -40,6 +42,8 @@ while T > 0:
         if P.lower() == "n":
             print ("Bye Bye")
             break
+        else:
+            break
        
     if T <= 0:
         print ("out of tries")
@@ -50,6 +54,8 @@ while T > 0:
             continue
         if P.lower() == "n":
             print ("Bye Bye")
+            break
+        else:
             break
 
     
